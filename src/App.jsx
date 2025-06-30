@@ -1,6 +1,6 @@
 
 import './App.css'
-import ProfileCard from './componets/profilecard'
+import Robot from './Components/3dRobot'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
   <BrowserRouter>
   <Routes>
-<Route path="/" element={<ProfileCard/>} />
+<Route path="/" element={<Robot/>} />
 
   </Routes>
   </BrowserRouter>
